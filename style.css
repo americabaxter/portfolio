@@ -1,0 +1,106 @@
+.flex-box-1 .nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-bg {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: "Playfair Display";
+    font-size: 22px;
+    margin-right: 20px;
+    /* I tried different values and played around to try and make sure text was at same level. */
+    margin-top: 10%;
+}
+
+.nav-colours {
+    background-color: white;
+    color: #0E204E;
+    font-family: "Playfair Display";
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.blue-tag-nav {
+    background-color: #0E204E;
+    color: white;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: "Playfair Display";
+}
+
+.nav-content-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-bar-box {
+    background-color: white;
+    color: #0E204E;
+    font-size: 15px;
+    padding: 17px;
+    display: flex;
+    margin-top: 5px;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 238px;
+
+}
+
+.nav-bar-box-3 {
+    background-color: white;
+    color: #0E204E;
+    display: flex;
+    font-size: 15px;
+    padding: 17px;
+    margin-top: 5px;
+    width: 170px;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.nav-bar-box-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* from this point onwards i had a really hard time formatting it so I played around with margin and padding until it looked similar to the guide*/
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 195px;
+    width: 130px;
+    height: 30px;
+    padding: 5px;
+    font-size: 15px;
+    background: #0E204E;
+    color: white;
+    font-family: "Playfair Display";
+}
+
+.flex-box-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box-1 {
+    color: white;
+    background: #0E204E;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+
+}
